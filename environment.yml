@@ -1,0 +1,25 @@
+name: pd
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.11.0
+  - pip
+  - pip:
+    - torch
+    - torchvision
+    - torchaudio
+    - --extra-index-url https://download.pytorch.org/whl/cu118
+    - neuralforecast==1.7.7
+    - git+https://github.com/jeslago/epftoolbox.git
+    - datasetsforecast
+    - notebook
+    - seaborn
+    - plotly
+    - ipywidgets
+    - anywidget
+    - scipy
+    - scikit-learn
+    - statsmodels
+    - scikit_posthocs
