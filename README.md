@@ -84,3 +84,7 @@ Example:
 cd PatchDecomp/src/analysis
 python plot_global_explanations.py --path_patchdecomp ../../results/epf/BE/seed0_250724_133654/results/PatchDecomp/ --path_tft ../../results/epf/BE/seed0_250724_133654/results/TFT/ --gpu 0
 ```
+
+## Paper
+
+[PatchDecomp: Interpretable Patch-Based Time Series Forecasting](https://github.com/AI4TS/AI4TS.github.io/blob/main/Camera_ready_AAAI2026/24.AI4TS26_PatchDecomp_CameraReady.pdf)
