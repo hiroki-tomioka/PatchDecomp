@@ -1,5 +1,11 @@
 # PatchDecomp
-This is the official implementation of PatchDecomp.<br>
+This is the official implementation of PatchDecomp.
+
+### Interpretability
+PatchDecomp provides the importance of each input patch and its direct contribution to the final prediction.
+![concept](img/concept.png)
+
+### Architecture
 ![architecture](img/architecture.png)
 
 ## Getting Started
